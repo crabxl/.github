@@ -1,0 +1,16 @@
+name: Suggestion
+description: Suggest an addition or an improvement.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Need
+      description: What do you want to do or find? Why can you not do it now?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What would help?

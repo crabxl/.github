@@ -1,0 +1,25 @@
+name: Problem report
+description: Something is wrong or out of date.
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is wrong? Quote the text or the result.
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: The page address, file or command.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected
+      description: What should it say or do instead?
+    validations:
+      required: true
